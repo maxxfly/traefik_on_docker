@@ -1,0 +1,15 @@
+api:
+  dashboard: true
+  insecure: true
+
+# http:
+#   routers:
+#     to-google:
+#       rule: "PathPrefix(`/`)"
+#       service: google
+
+# services:
+#   google:
+#     loadBalancer:
+#       servers:
+#         - url: https://www.google.fr
